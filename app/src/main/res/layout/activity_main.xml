@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="187dp"
+            android:text="countNumber"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="82dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/PlusButton"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:onClick="plusCount"
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="375dp" />
+
+            <Button
+                android:id="@+id/MinusButton"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:onClick="minusCount"
+                tools:layout_editor_absoluteX="210dp"
+                tools:layout_editor_absoluteY="374dp" />
+
+            <Button
+                android:id="@+id/holdButton"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:onClick="holdButton"
+                tools:layout_editor_absoluteX="210dp"
+                tools:layout_editor_absoluteY="374dp" />
+
+            <Button
+                android:id="@+id/resetButton"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:onClick="numberReset"
+                tools:layout_editor_absoluteX="210dp"
+                tools:layout_editor_absoluteY="374dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
