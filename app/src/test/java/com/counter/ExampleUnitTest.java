@@ -14,4 +14,12 @@ public class ExampleUnitTest {
     public void addition_isCorrect() {
         assertEquals(4, 2 + 2);
     }
+
+    @Test
+    public void spaceMethodTest(){
+        MainActivity main = new MainActivity();
+        assertEquals(main.spaceToZero(3, "0", 3), "003");
+        assertEquals(main.spaceToZero(13, "0", 3), "013");
+        assertEquals(main.spaceToZero(113, "0", 3), "113");
+    }
 }
