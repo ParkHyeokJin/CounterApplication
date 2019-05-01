@@ -10,3 +10,5 @@ CounterApp은 매우 간단한 숫자 세기 어플입니다.
 * 리셋
 
 ## 미리보기
+#### ICON
+![Counter App ICON](https://github.com/ParkHyeokJin/CounterApplication/blob/master/app/src/main/ic_launcher-web.png?raw=true "Counter ICON")
